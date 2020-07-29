@@ -1,22 +1,11 @@
 ## Para quando for baixar vscode em uma nova máquina e quiser os estilos prontos:
 
-{
+{ 
+    
     // Define o tema:
+    
     "workbench.colorTheme": "Dracula",
-
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "explorer.confirmDelete": false,
-
-    "launch": {
-
-    "eslint.autoFixSave": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        { "language": "typescript", "autofix": true },
-        { "language": "typescriptreact", "autofix": true }
-    ]
-    },
+    
     "vsicons.dontShowNewVersionMessage": true,
     // Configura tamanho e família da fonte
     "editor.fontSize":16,
